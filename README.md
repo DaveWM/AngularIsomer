@@ -7,7 +7,7 @@ This directive allows you to bind a canvas to an array of isomer shapes, by pass
 
 ```html
 <canvas isomer width="500" height="500" ng-shapes="shapes"></canvas>
-<--! or -->
+<!-- or -->
 <isomer width="500" height="500" ng-shapes="shapes"></isomer>
 ```
 
