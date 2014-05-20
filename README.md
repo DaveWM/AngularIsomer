@@ -1,7 +1,7 @@
 AngularIsomer
 =============
 
-Angular JS directives for Isomer (http://jdan.github.io/isomer/)
+Angular JS directives for Isomer <a href="http://jdan.github.io/isomer/">http://jdan.github.io/isomer/</a>
 
 This directive allows you to bind a canvas to an array of isomer shapes, by passing the array into the "ng-shapes" attribute. You can use "isomer" as either an element or attribute on a canvas, for example:
 
@@ -19,4 +19,4 @@ var shapes = [Isomer.Shape.Prism(Isomer.Point.ORIGIN, 1, 1, 1)];
 shapes = [{shape: Isomer.Shape.Prism(Isomer.Point.ORIGIN, 1, 1, 1), colour = new Isomer.Color(255,0,0)}];
 ```
 
-Note: the directive deep watches the ng-shapes array.
+<i>Note: the directive deep watches the ng-shapes array.</i>
